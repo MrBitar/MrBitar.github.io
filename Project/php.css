@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(224, 214, 167, 0.986);
+    text-align: center;
+    border:#4a2a1b;
+    background-image: url('back.jpg');
+}
+div{
+    background-color: rgba(224, 214, 167, 0.986);
+    height: auto;
+    padding-top: 0.1in;
+    padding-bottom: 0.2in;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: groove;
+    border-color: #4a2a1b;
+    border-width: thick;
+    
+}
+@font-face {
+    font-family: candyshop;
+    src: url('candy-inc.inc.otf');
+}
+
+h1{
+    font-family: candyshop;
+    font-size: 500%;
+}
+p{
+    font-family: candyshop;
+    font-size: 400%;
+    font-style: bold;
+}
+input[type=text]
+{
+   background-color: rgba(224, 214, 167, 0.986);
+   font-family: candyshop;
+   width:27%;
+   height:9%;
+   font-size: 300%;
+}
+input[type=text]:focus
+{
+   background-color: #4a2a1b;
+   color:rgba(224, 214, 167, 0.986);
+   font-family: candyshop;
+   width:27%;
+   height:9%;
+   font-size: 300%;
+}
+textarea{
+    background-color: rgba(224, 214, 167, 0.986);
+    font-family: candyshop;
+    
+    font-size:300%;
+}
+textarea:focus{
+    background-color: #4a2a1b;
+    color:rgba(224, 214, 167, 0.986);
+    font-family: candyshop;
+   
+    font-size: 300%;
+}
+input[type=submit]
+{
+   background-color: #4a2a1b;
+   color:rgba(224, 214, 167, 0.986);
+   font-family: candyshop;
+   width:17%;
+   margin-top: 0.2in;
+   height:9%;
+   font-size: 300%;
+}
+input[type=reset]
+{
+   background-color: #4a2a1b;
+   color:rgba(224, 214, 167, 0.986);
+   font-family: candyshop;
+   width:17%;
+   margin-top: 0.2in;
+   height:9%;
+   font-size:300%;
+}
+strong
+{
+color:#4a2a1b;
+}
+h1 a
+{
+color: black;
+text-decoration: none;
+}
+h1 a:hover
+{
+color: #4a2a1b;
+text-decoration: none;
+}

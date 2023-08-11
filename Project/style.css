@@ -1,0 +1,105 @@
+@font-face {
+    font-family: candyshop;
+    src: url('candy-inc.inc.otf');
+}
+@font-face {
+    font-family: candylogo;
+    src: url('wonderbar.regular.otf');
+}
+h1
+{
+    font-family: candyshop;
+    color: black;
+    font-size: 300%;
+}
+td{
+    font-family: candyshop;
+    color: black;
+    font-size: 150%;
+}
+td a{
+    font-family: candyshop;
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
+}
+td a:hover{
+    font-family: candyshop;
+    color: #4a2a1b;
+    font-size: 150%;
+}
+th{
+    font-family: candyshop;
+    font-size: 510%;
+}
+th strong{
+    color:#4a2a1b;
+}
+p{
+    text-align: justify;
+    font-size: 150%;
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+td img{
+    float:left;
+}
+table.brew
+{
+    text-align: center;
+    font-size:200% ;
+    border: 1;
+}
+body
+{
+background-color: rgba(224, 214, 167, 0.986);
+margin: 0;
+}
+ul
+{
+background-color:#4a2a1b;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 25%;
+height:100%;
+position: fixed; 
+overflow: auto;
+}
+li img
+{
+    width:55%;
+    background-color: #4a2a1b;
+    height: 30%;
+}
+
+ img.table {
+    width:25%;
+    height:15%;
+}
+li a {
+    color: #999791;
+    font-family: candyshop;
+    font-size: 210%;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    li a:hover {
+        background-color: #999791;
+        color: black;
+        }
+    
+            li img {
+                margin-left: 20%;
+                margin-right: 25%;                
+                color: #999791;
+                background-color: black;
+                }
+td p{
+    text-indent: 0.1in;
+    text-align: justify;
+}
+
